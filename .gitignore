@@ -30,8 +30,22 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files (ignore local secrets, permit .env.example)
+.env*.local
+.env.local
+.env.production.local
+.env.development.local
+
+# Internal Antigravity Agent Configurations & Design Specs
+.agents/
+AGENTS.md
+GEMINI.md
+DESIGN.md
+PROJECT.md
+
+# Internal Setup & Scratch Guides
+readme-understand.md
+setup_Read_real.md
 
 # vercel
 .vercel

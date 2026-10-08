@@ -1,5 +1,5 @@
 {
-  "name": "pay",
+  "name": "foripay",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.9.1",
+    "@tanstack/react-query": "^5.104.1",
+    "bcryptjs": "^3.0.3",
+    "better-auth": "^1.7.7",
+    "mongoose": "^9.11.0",
     "next": "16.3.8",
+    "nodemailer": "^10.0.15",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.89.0",
+    "sonner": "^2.0.8",
+    "yup": "^1.7.1",
+    "zustand": "^5.0.15"
   },
   "packageManager": "pnpm@12.4.1"
 }
